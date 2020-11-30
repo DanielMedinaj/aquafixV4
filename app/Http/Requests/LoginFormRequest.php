@@ -24,7 +24,7 @@ class LoginFormRequest extends FormRequest
     public function rules()
     {
         return [
-            //
+            //Agregamos las reglas para validar en frontend
             'usuario' => 'required',
             'password' => 'required'
 
